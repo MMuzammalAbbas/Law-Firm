@@ -15,8 +15,8 @@ const Career = () => {
     });
     
     const images = [
-        '/src/assets/39.jpg',
-        '/src/assets/40.jpg',
+        '/assets/39.jpg',
+        '/assets/40.jpg',
     ];
 
     useEffect(() => {

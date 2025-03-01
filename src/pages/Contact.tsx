@@ -17,8 +17,8 @@ const Contact: React.FC = () => {
         description: ''
     });
     const images: string[] = [
-      '/src/assets/49.jpg',
-      '/src/assets/54.jpg',
+      '/assets/49.jpg',
+      '/assets/54.jpg',
     ];
   
     useEffect(() => {

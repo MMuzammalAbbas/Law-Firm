@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import image2 from "../assets/37.jpg";
+
+const image2 = "/assets/37.jpg";
 
 const Clients: React.FC = () => {
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -12,8 +13,8 @@ const Clients: React.FC = () => {
     const [isOpen6, setIsOpen6] = useState(false);
 
     const images = [
-      '/src/assets/43.jpg',
-      '/src/assets/51.jpg',
+      '/assets/43.jpg',
+      '/assets/51.jpg',
       
     ];
   

@@ -2,15 +2,15 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { FaEnvelope, FaPhoneSquare } from 'react-icons/fa';
 import './styles/Team.css';
-import image1 from "../assets/30.jpg";
-import image2 from "../assets/30.jpg";
-import image3 from "../assets/30.jpg";
-import image4 from "../assets/30.jpg";
-import image5 from "../assets/30.jpg";
-import image6 from "../assets/30.jpg";
-import image7 from "../assets/30.jpg";
-import image8 from "../assets/30.jpg";
 
+const image1 = "/assets/30.jpg";
+const image2 = "/assets/31.jpg";
+const image3 = "/assets/32.jpg";
+const image4 = "/assets/33.jpg";
+const image5 = "/assets/34.jpg";
+const image6 = "/assets/35.jpg";
+const image7 = "/assets/36.jpg";
+const image8 = "/assets/37.jpg";
 
 
 
@@ -87,8 +87,8 @@ const Team: React.FC = () => {
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
     
     const images = [
-      '/src/assets/35.jpg',
-      '/src/assets/46.jpg',
+      '/assets/35.jpg',
+      '/assets/46.jpg',
       
     ];
   

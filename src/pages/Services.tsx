@@ -10,8 +10,8 @@ const Services: React.FC = () => {
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
     
     const images = [
-      '/src/assets/29.jpg',
-      '/src/assets/38.jpg',
+      '/assets/29.jpg',
+      '/assets/38.jpg',
       
     ];
   

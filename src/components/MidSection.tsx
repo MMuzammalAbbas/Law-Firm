@@ -1,13 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import "../components/MidSection.css"; // Import the CSS file for the MidSection component
-import image1 from "../assets/mdsection.png";
+
+const image1 = "/assets/mdsection.png";
 
 
 const MidSection: React.FC = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const images = [
-    '/src/assets/1.jpg',
-    '/src/assets/2.jpg',
+    '/assets/1.jpg',
+    '/assets/2.jpg',
     
   ];
 

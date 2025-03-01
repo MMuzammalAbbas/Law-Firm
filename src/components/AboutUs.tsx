@@ -1,5 +1,6 @@
 import React from 'react';
-import aboutImage from '../assets/4.jpg';
+
+const aboutImage = "/assets/4.jpg";
 
 const AboutUs: React.FC = () => {
   return (

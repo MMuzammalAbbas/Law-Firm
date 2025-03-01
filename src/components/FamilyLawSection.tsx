@@ -1,5 +1,5 @@
 import React from 'react';
-import image25 from '../assets/28.jpg';
+const image25 =  '/assets/28.jpg';
 
 
 const FamilyLawSection: React.FC = () => {

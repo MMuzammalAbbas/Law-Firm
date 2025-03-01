@@ -1,7 +1,9 @@
 
 import { FaPhoneSquare,FaEnvelopeSquare, FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
-import logo from "../assets/lgbg.png";
+
+const logo = "/assets/lgbg.png";
+
 
 const Footer = () => {
  

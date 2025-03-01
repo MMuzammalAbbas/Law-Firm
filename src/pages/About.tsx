@@ -6,8 +6,8 @@ const About: React.FC = () => {
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
     
     const images = [
-      '/src/assets/42.jpg',
-      '/src/assets/41.jpg',
+      '/assets/42.jpg',
+      '/assets/41.jpg',
       
     ];
   
@@ -53,14 +53,14 @@ const About: React.FC = () => {
           </p>
         </div>
         <div className="w-full md:w-1/2">
-          <img src="/src/assets/34.jpg" alt="MNIP Law Firm" className="w-full rounded-lg" />
+          <img src="/assets/34.jpg" alt="MNIP Law Firm" className="w-full rounded-lg" />
         </div>
       </div>
 
       {/* Text on the right, Image on the left (for smaller screens) */}
       <div className="flex flex-wrap items-center mt-10">
   <div className="w-full md:w-1/2 order-2 md:order-1 pr-4">
-    <img src="/src/assets/36.jpg" alt="MNIP Law Firm" className="w-full rounded-lg" />
+    <img src="/assets/36.jpg" alt="MNIP Law Firm" className="w-full rounded-lg" />
   </div>
   <div className="w-full md:w-1/2 mb-4 md:mb-0 order-1 md:order-2 pl-4">
     <h2 className="text-3xl font-bold mb-4">Putting Clients First</h2>

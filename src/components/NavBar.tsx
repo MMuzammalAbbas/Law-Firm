@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import { Link ,useLocation} from 'react-router-dom';
 import CustomLink from './CustomLink';
-import logo from "../assets/up.png";
-import un from "../assets/un.png";
+const logo =  "/assets/up.png";
+const un = "/assets/un.png";
 
 
 const NavBar: React.FC = () => {

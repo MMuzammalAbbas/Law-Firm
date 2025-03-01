@@ -1,14 +1,15 @@
 import React from 'react';
 import { FaEnvelope, FaPhoneSquare } from 'react-icons/fa';
 import './OurTeamSection.css'; // Import your CSS file
-import image1 from "../assets/30.jpg";
-import image2 from "../assets/30.jpg";
-import image3 from "../assets/30.jpg";
-import image4 from "../assets/30.jpg";
-import image5 from "../assets/30.jpg";
-import image6 from "../assets/30.jpg";
-import image7 from "../assets/30.jpg";
-import image8 from "../assets/30.jpg";
+
+const image1 = "/assets/30.jpg";
+const image2 = "/assets/30.jpg";
+const image3 = "/assets/30.jpg";
+const image4 = "/assets/30.jpg";
+const image5 = "/assets/30.jpg";
+const image6 = "/assets/30.jpg";
+const image7 = "/assets/30.jpg";
+const image8 = "/assets/30.jpg";
 
 const images = [image1, image2, image3, image4, image5, image6, image7, image8];
 
