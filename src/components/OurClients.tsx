@@ -75,7 +75,7 @@ const OurClients: React.FC = () => {
       Clients</h2>
       <div className="w-24 mt-0 ml-5 h-3 bg-yellow-500 absolute left-4 mt-2"></div>
       <div className="clients-logos flex justify-center items-center overflow-hidden mt-8 mb-5">
-      {[...images, ...images].map((image, index) => {
+      {[...images, ...images].map((_, index) => {
           const adjustedIndex = (currentImageIndex + index) % images.length;
           if (index < 8) {
           return (
