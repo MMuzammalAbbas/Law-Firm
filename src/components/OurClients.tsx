@@ -21,7 +21,7 @@ import client19Image from '../assets/23.png';
 import client20Image from '../assets/24.jpeg';
 import client21Image from '../assets/25.jpeg';
 import client22Image from '../assets/26.png';
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 const OurClients: React.FC = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);

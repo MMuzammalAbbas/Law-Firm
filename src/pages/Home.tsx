@@ -1,4 +1,4 @@
-import React from 'react';
+
 import OurClients from '../components/OurClients';
 import AboutUs from '../components/AboutUs';
 import PracticeAreas from '@/components/PracticeAreas';
