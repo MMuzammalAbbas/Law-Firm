@@ -1,0 +1,62 @@
+.container {
+    margin-top: 70px;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); 
+      gap: 30px; /* Adjust the gap between blocks as needed */
+      justify-content: center;
+    
+    }
+    
+  @media (max-width: 800px) {
+    .container {
+      grid-template-columns: repeat(2, minmax(200px, 1fr)); /* Two columns for smaller screens */
+    }
+  }
+  
+    .blocks {
+      overflow: hidden;
+      position: relative;
+      cursor: pointer;
+      transition: transform 0.3s;
+      width: 100%;
+  
+      
+    }
+    
+    .blocks img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+    
+    .details {
+      background-color: rgb(255, 255, 255);
+      color: rgb(18, 17, 17);
+      padding: 10px;
+      box-sizing: border-box;
+      text-align: center;
+    }
+    
+    .blocks:hover {
+      transform: scale(1.05); /* Increase size on hover */
+  }
+    .details h3 {
+      margin-top: 0;
+      font-size: 18px;
+      font-weight: bold;
+    }
+    
+  
+    .details p {
+      margin: 5px 0;
+      font-size: 14px;
+    }
+    
+    .details a {
+      color: rgba(235, 149, 29, 0.82);
+      
+    }
+    
+    .details a:hover {
+      color: rgba(155, 155, 155, 0.906); /* Change color on hover if desired */
+    }
